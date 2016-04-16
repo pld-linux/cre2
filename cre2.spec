@@ -14,7 +14,9 @@ Source0:	https://github.com/marcomaggi/cre2/archive/%{version}/%{name}-%{version
 URL:		https://github.com/marcomaggi/cre2/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	libstdc++-devel
 BuildRequires:	libtool
+BuildRequires:	re2-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 # common make args
